@@ -122,7 +122,17 @@
                 a('p', [
                   t._v('My account at freelancehunt. '),
                   a('strong', [
-                    a('a', { attrs: { href: '' } }, [t._v('hunt')]),
+                    a(
+                      'a',
+                      {
+                        attrs: {
+                          href:
+                            'https://freelancehunt.com/freelancer/xelinel32.html',
+                          target: '_blank',
+                        },
+                      },
+                      [t._v('hunt')]
+                    ),
                   ]),
                 ]),
                 t._v(' '),
